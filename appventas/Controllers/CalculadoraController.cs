@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -9,11 +9,11 @@ using appventas.Models;
 
 namespace appventas.Controllers
 {
-    public class ContactoController : Controller
+    public class CalculadoraController : Controller
     {
-        private readonly ILogger<ContactoController> _logger;
+        private readonly ILogger<CalculadoraController> _logger;
 
-        public ContactoController(ILogger<ContactoController> logger)
+        public CalculadoraController(ILogger<CalculadoraController> logger)
         {
             _logger = logger;
         }
@@ -33,9 +33,26 @@ namespace appventas.Controllers
             return View("Index");
         }
 
-         public IActionResult Calcu()
+         public IActionResult Calculadora()
         {   
+            ViewData["Resultado"] = " ";
             return View();
+        }
+
+        public IActionResult Calcular(Calculadora objcalc)
+        {
+            switch(objcalc.Operando)
+            {
+                case "+":
+                objcalc.Resultado = objcalc.Operador1 + objcalc.Operador2;
+                 ViewData["Resultado"]= "La suma es : " + objcalc.Resultado;
+                 Console.Write("ga");
+                break;
+            }
+
+
+
+            return View("Calculadora");
         }
     }
 }

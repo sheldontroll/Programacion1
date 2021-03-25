@@ -15608,6 +15608,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Programacion1\\Tarea1\\Programacion1\\appventas\\Views\\Calculadora\\calculadora.cshtml",
+      "TargetPath": "Views\\Calculadora\\calculadora.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Programacion1\\Tarea1\\Programacion1\\appventas\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
