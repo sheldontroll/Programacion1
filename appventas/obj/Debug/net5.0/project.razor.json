@@ -15646,6 +15646,11 @@
       "FilePath": "c:\\Programacion1\\Tarea1\\Programacion1\\appventas\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Programacion1\\Tarea1\\Programacion1\\appventas\\Views\\Ventas\\ventas.cshtml",
+      "TargetPath": "Views\\Ventas\\ventas.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"

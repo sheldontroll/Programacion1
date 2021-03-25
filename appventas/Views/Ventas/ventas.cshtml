@@ -1,0 +1,22 @@
+@model Ventas
+<form asp-controller="Ventas" asp-action="IGV">
+    <label asp-for="Nombre" class="control-label"></label>
+    <input asp-for="Nombre" class="form-control" />
+
+    <label asp-for="Datos" class="control-label"></label>
+    <input asp-for="Datos" class="form-control" />
+
+    <label asp-for="Precio" class="control-label"></label>
+    <input asp-for="Precio" class="form-control" />
+
+    <label asp-for="Cantidad" class="control-label"></label>
+    <input asp-for="Cantidad" class="form-control" />
+
+
+    <div class="form-group">
+        <button type="submit"   class="btn btn-primary"> Calcular </button>
+    </div>
+
+</form>
+
+<h1> @ViewData["Venta"] </h1>

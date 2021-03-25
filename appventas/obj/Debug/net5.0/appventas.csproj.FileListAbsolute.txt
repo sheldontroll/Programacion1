@@ -40,3 +40,4 @@ C:\Programacion1\Tarea1\Programacion1\appventas\obj\Debug\net5.0\appventas.pdb
 C:\Programacion1\Tarea1\Programacion1\appventas\obj\Debug\net5.0\appventas.genruntimeconfig.cache
 C:\Programacion1\Tarea1\Programacion1\appventas\obj\Debug\net5.0\appventas.csproj.CopyComplete
 C:\Programacion1\Tarea1\Programacion1\appventas\obj\Debug\net5.0\Razor\Views\Calculadora\calculadora.cshtml.g.cs
+C:\Programacion1\Tarea1\Programacion1\appventas\obj\Debug\net5.0\Razor\Views\Ventas\ventas.cshtml.g.cs
