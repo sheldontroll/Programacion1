@@ -37,7 +37,8 @@ namespace appventas.Controllers
         {
             objventas.Resultado = objventas.Precio * objventas.Cantidad;
             objventas.Resultado = objventas.Resultado * 1.18;
-            ViewData["Venta"] = "Por la compra de : " + objventas.Nombre + " Incluido IGV es: " + objventas.Resultado;
+            objventas.Resultado = Math.Round(objventas.Resultado,2);
+            ViewData["Venta"] = "Por la compra de : " + objventas.Cantidad + " " + objventas.Nombre + " Codigo del producto es : " + objventas.Datos +" Incluido IGV es : S/." + objventas.Resultado + " nuevos soles";
             return View("Ventas");
         }
 
